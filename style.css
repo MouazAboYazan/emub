@@ -1,0 +1,219 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Common Styles */
+:root {
+    --main-bg-color: #f4f4f4;
+    --main-logo-color: #ffffff ;
+    --main-txt-color: #252525;
+    --main-btn-color:  #4285f4;
+    --secnde-btn-color: #33ff57;
+    --therd-btn-color: #5733ff;
+    --main-lnk-color: #0000ff;
+    --seconde-lnk-color: #00a0e2;
+    --logo-font: "Paytone One", sans-serif;
+}
+
+/* Body Styles */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+hr {
+    width: 100%;
+}
+
+/* Container Styles */
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Paragraph Styles */
+.welcomeText {
+    color: var(--main-txt-color);
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+}
+
+.instructions {
+    color: var(--main-txt-color);
+    padding: 40px 0 10px 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: var(--main-btn-color) !important;
+    text-align: center;
+    color: var(--main-logo-color) !important;
+}
+
+/* Logo Styles */
+.navbar-brand {
+    color: var(--main-logo-color);
+    font-family: var(--logo-font);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover{
+    color: var(--main-logo-color);
+}
+
+
+.nav-link{
+    color: var(--main-logo-color) !important;
+
+}
+
+.navbar-toggler{
+color: var(--main-logo-color) !important;
+border: none !important;
+outline: none;
+}
+
+/* Iframe Styles */
+iframe {
+    border: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.question-container {
+    width: 90%;
+    margin: auto;
+}
+
+.question {
+    color: var(--main-txt-color);
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* User Input Styles */
+.userInput {
+    width: 100%;
+    border: 1px var(--main-txt-color) solid;
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button Styles */
+.btn {
+    background-color: var(--main-btn-color);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: var(--main-bg-color);
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Button Container Styles */
+.btns {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+/* Result Paragraph Styles */
+.result {
+    color: var(--main-txt-color);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/* Result ID Styles */
+#result {
+    display: block;
+}
+
+/* Additional Styles */
+.q {
+    position: relative;
+}
+
+.question{
+    text-transform: none !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .question {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    iframe {
+        height: 70vh;
+        width: 90vw;
+        box-shadow: var(--main-btn-color) 0px 0px 0px 3px;
+        }
+
+    .videoContainer{
+        padding-bottom: 40px;
+    }
+    /* User Input Styles */
+    .userInput {
+        width: 40vw;
+    }
+
+    /* Button Container Styles */
+    .btns {
+        width: 60%;
+    }
+
+    .br {
+        visibility: hidden;
+        display: none;
+    }
+
+    .instructions {
+        text-align: center;
+    }
+    
+    .welcomeText{
+        font-size: 30px;
+    }
+    .instructions{
+        font-size: 30px;
+    }
+}
