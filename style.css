@@ -136,8 +136,8 @@ iframe {
 .btn {
     background-color: var(--main-btn-color);
     border: none;
-    padding: 12px 24px;
-    font-size: 16px;
+    padding: 12px 20px;
+    font-size: 13px;
     border-radius: 5px;
     color: var(--main-bg-color);
     margin: 10px 0;
@@ -195,7 +195,10 @@ iframe {
     .userInput {
         width: 40vw;
     }
-
+.btn{
+        padding: 12px 24px;
+    font-size: 16px;
+}
     /* Button Container Styles */
     .btns {
         width: 60%;
