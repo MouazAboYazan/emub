@@ -136,8 +136,8 @@ iframe {
 .btn {
     background-color: var(--main-btn-color);
     border: none;
-    padding: 12px 20px;
-    font-size: 13px;
+    padding: 12px 15px;
+    font-size: 11px;
     border-radius: 5px;
     color: var(--main-bg-color);
     margin: 10px 0;
